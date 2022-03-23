@@ -32,7 +32,7 @@ cyberark.search_accounts(search='test-23', safe='test_safe')
 ```python
 # Fist, we need to get the ID of the account
 # > Make sure when you search for the account you get a single item
-test_23_id = cyberark.search_accounts(search='test-23', safe='FE_INF_PREPROD')[0].get('id')
+test_23_id = cyberark.search_accounts(search='test-23', safe='test_safe')[0].get('id')
 
 # Print the password
 print(cyberark.get_account_password(test_23_id))
