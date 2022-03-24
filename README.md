@@ -1,6 +1,8 @@
 # Cyberark_apis_v2
 Python class of common needed methods of CyberArk APIs (v2)
 
+[Cyberark REST APIs guide](https://docs.cyberark.com/Product-Doc/OnlineHelp/PAS/Latest/en/Content/WebServices/Implementing%20Privileged%20Account%20Security%20Web%20Services%20.htm?tocpath=Developer%7CREST%20APIs%7C_____0)
+
 > **Compatible with:** Python3.6 & above 
 
 
