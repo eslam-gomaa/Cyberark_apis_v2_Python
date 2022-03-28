@@ -9,7 +9,7 @@ requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS += ':HIGH:!DH:!aNULL'
 class Cyberark:
 
     def __init__(self):
-        self.cyberark_url = 'https://cyberark-pvwa-bypassproxy.casa.equant.com'
+        self.cyberark_url = 'https://*********'
         self.cyberark_session_token = None
         self.verify_ssl = False
         self.concurrent_session = True
